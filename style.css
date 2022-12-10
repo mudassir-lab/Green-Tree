@@ -68,6 +68,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding-bottom: 15%;
     
 
 }
