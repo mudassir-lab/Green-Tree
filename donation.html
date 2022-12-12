@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="donation-header"> 
+        <div class="donation-heading">
+            The Green Trees Initiative
+        </div> 
+    </header>
+    <div class="don-main-container">
+        <div class="don-main-container__heading">
+            GIVE HOPE TO THOSE WHO NEED IT MOST
+        </div>
+        <div class="form-container">
+            <div class="form-container__information container-row">
+                Your information
+            </div>
+            <div class="form-container__name container-row">
+                <div class="form-container__name__firstname">
+                    <label class="field-label" for="Name-3">FIRST NAME</label>
+                    <input type="text" name="name" id="Firstname" placeholder="First Name" class="field-input">
+                </div>
+                <div class="form-container__name__lastname">
+                    <label class="field-label" for="Name-3">LAST NAME</label>
+                    <input type="text" name="name" id="Lastname" placeholder="Last Name" class="field-input">
+                    
+                </div>
+            </div>
+            <div class="form-container__street container-row">
+                <label for="address" class="field-label">STREET ADDRESS</label>
+                <input type="text" class="field-input" name="address" placeholder="Street address">
+            </div>
+            <div class="city-add container-row">
+                <div class="city-add__city">
+                    <label for="city" class="field-label">CITY</label>
+                    <input type="text" class="field-input" name="city" placeholder="City Name">
+                </div>
+                <div class="city-add__state ">
+                    <label for="state" class="field-label">STATE</label>
+                    <select id="country-state" name="country-state" >
+                        <option value="none" selected disabled hidden>Select an Option</option>
+                        <option value="AN">Andaman and Nicobar Islands</option>
+                        <option value="AP">Andhra Pradesh</option>
+                        <option value="AR">Arunachal Pradesh</option>
+                        <option value="AS">Assam</option>
+                        <option value="BR">Bihar</option>
+                        <option value="CH">Chandigarh</option>
+                        <option value="CT">Chhattisgarh</option>
+                        <option value="DN">Dadra and Nagar Haveli</option>
+                        <option value="DD">Daman and Diu</option>
+                        <option value="DL">Delhi</option>
+                        <option value="GA">Goa</option>
+                        <option value="GJ">Gujarat</option>
+                        <option value="HR">Haryana</option>
+                        <option value="HP">Himachal Pradesh</option>
+                        <option value="JK">Jammu and Kashmir</option>
+                        <option value="JH">Jharkhand</option>
+                        <option value="KA">Karnataka</option>
+                        <option value="KL">Kerala</option>
+                        <option value="LA">Ladakh</option>
+                        <option value="LD">Lakshadweep</option>
+                        <option value="MP">Madhya Pradesh</option>
+                        <option value="MH">Maharashtra</option>
+                        <option value="MN">Manipur</option>
+                        <option value="ML">Meghalaya</option>
+                        <option value="MZ">Mizoram</option>
+                        <option value="NL">Nagaland</option>
+                        <option value="OR">Odisha</option>
+                        <option value="PY">Puducherry</option>
+                        <option value="PB">Punjab</option>
+                        <option value="RJ">Rajasthan</option>
+                        <option value="SK">Sikkim</option>
+                        <option value="TN">Tamil Nadu</option>
+                        <option value="TG">Telangana</option>
+                        <option value="TR">Tripura</option>
+                        <option value="UP">Uttar Pradesh</option>
+                        <option value="UT">Uttarakhand</option>
+                        <option value="WB">West Bengal</option>
+                    </select>
+                </div>
+                <div class="city-add__zip">
+                    <label for="code" class="field-label">ZIP CODE</label>
+                    <input type="text" class="field-input" placeholder="ZIP">
+                </div>
+            </div>
+            <div class="email-add container-row">
+                <label for="email" class="field-label">EMAIL ADDRESS</label>
+                <input type="email" class="field-input" placeholder="Email address">
+            </div>
+            <div class="pay_info container-row">
+                Payment information
+            </div>
+            <div class="credit-card-number container-row">
+                <label for="credit-number" class="field-label">CREDIT CARD NUMBER</label>
+                <input type="text" class="field-input" name="credit-number" placeholder="Credit card number">
+            </div>
+            <div class="credit-card-details container-row">
+                <div class="card-validity">
+                    <label for="expiry-date" class="field-label">EXPIRATION DATE</label>
+                    <input type="text" id="month" class="field-input" placeholder="MM">
+                    <input type="text" id="year" class="field-input" placeholder="YYYY">
+                </div>
+                <div class="card-cvc">
+                    <label for="cvc" class="field-label">SECURITY CODE</label>
+                    <input type="text" class="field-input" placeholder="CVC">
+                </div>
+            </div>
+            <div class="form-container__instruction container-row">
+                Click the button to confirm
+                your donation of $10,
+                recurring monthly.
+            </div>
+            <div class="form-last-div container-row">
+                <a class="payment-button" href="#">Process Payment</a>
+                <a href="home.html" class="go-back">Go back</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
